@@ -70,3 +70,18 @@ topText1.querySelector('p').textContent = siteContent['main-content']['features-
 const topText2 = topContent.querySelector('.text-content:nth-of-type(2)')
 topText2.querySelector('h4').textContent = siteContent['main-content']['about-h4']
 topText2.querySelector('p').textContent = siteContent['main-content']['about-content']
+
+//Bottom Content
+const bottomContent = document.querySelector('.bottom-content')
+
+const bottomText1 = bottomContent.querySelector('.text-content:nth-of-type(1)')
+bottomText1.querySelector('h4').textContent = siteContent['main-content']['services-h4']
+bottomText1.querySelector('p').textContent = siteContent['main-content']['services-content']
+
+const bottomText2 = bottomContent.querySelector('.text-content:nth-of-type(2)')
+bottomText2.querySelector('h4').textContent = siteContent['main-content']['product-h4']
+bottomText2.querySelector('p').textContent = siteContent['main-content']['product-content']
+
+const bottomText3 = bottomContent.querySelector('.text-content:nth-of-type(3)')
+bottomText3.querySelector('h4').textContent = siteContent['main-content']['vision-h4']
+bottomText3.querySelector('p').textContent = siteContent['main-content']['vision-content']
