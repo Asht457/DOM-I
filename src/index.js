@@ -85,3 +85,8 @@ bottomText2.querySelector('p').textContent = siteContent['main-content']['produc
 const bottomText3 = bottomContent.querySelector('.text-content:nth-of-type(3)')
 bottomText3.querySelector('h4').textContent = siteContent['main-content']['vision-h4']
 bottomText3.querySelector('p').textContent = siteContent['main-content']['vision-content']
+
+//cta
+const cta1 = document.querySelector('.cta-text')
+cta1.querySelector('h1').textContent = siteContent.cta.h1
+cta1.querySelector('button').textContent = siteContent.cta.button
