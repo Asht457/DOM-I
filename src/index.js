@@ -38,7 +38,7 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
     "accent-img": "http://localhost:9000/img/accent.png",
   },
 };
-
+//images
 const logoImg = document.querySelector('#logo-img')
 logoImg.src = siteContent.images['logo-img']
 
@@ -47,3 +47,8 @@ ctaImg.src = siteContent.images['cta-img']
 
 const accentImg = document.querySelector('#middle-img')
 accentImg.src = siteContent.images['accent-img']
+
+//Footer Link
+const footerLink = document.querySelector('footer a')
+footerLink.textContent = siteContent.footer['copyright']
+footerLink.classList.add('bold')
