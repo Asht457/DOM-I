@@ -59,3 +59,14 @@ contact.children[0].textContent = siteContent.contact['contact-h4']
 contact.children[1].textContent = siteContent.contact['address']
 contact.children[2].textContent = siteContent.contact['phone']
 contact.children[3].textContent = siteContent.contact['email']
+
+//Top Content
+const topContent = document.querySelector('.top-content')
+
+const topText1 = topContent.querySelector('.text-content:nth-of-type(1)')
+topText1.querySelector('h4').textContent = siteContent['main-content']['features-h4']
+topText1.querySelector('p').textContent = siteContent['main-content']['features-content']
+
+const topText2 = topContent.querySelector('.text-content:nth-of-type(2)')
+topText2.querySelector('h4').textContent = siteContent['main-content']['about-h4']
+topText2.querySelector('p').textContent = siteContent['main-content']['about-content']
