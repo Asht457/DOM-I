@@ -90,3 +90,20 @@ bottomText3.querySelector('p').textContent = siteContent['main-content']['vision
 const cta1 = document.querySelector('.cta-text')
 cta1.querySelector('h1').textContent = siteContent.cta.h1
 cta1.querySelector('button').textContent = siteContent.cta.button
+
+//Nav
+
+const nav1 = document.querySelector('nav')
+nav1.querySelector('a:nth-of-type(1)').textContent = siteContent.nav['nav-item-1']
+nav1.querySelector('a:nth-of-type(2)').textContent = siteContent.nav['nav-item-2']
+nav1.querySelector('a:nth-of-type(3)').textContent = siteContent.nav['nav-item-3']
+nav1.querySelector('a:nth-of-type(4)').textContent = siteContent.nav['nav-item-4']
+nav1.querySelector('a:nth-of-type(5)').textContent = siteContent.nav['nav-item-5']
+nav1.querySelector('a:nth-of-type(6)').textContent = siteContent.nav['nav-item-6']
+
+nav1.querySelector('a:nth-of-type(1)').classList.add('italic')
+nav1.querySelector('a:nth-of-type(2)').classList.add('italic')
+nav1.querySelector('a:nth-of-type(3)').classList.add('italic')
+nav1.querySelector('a:nth-of-type(4)').classList.add('italic')
+nav1.querySelector('a:nth-of-type(5)').classList.add('italic')
+nav1.querySelector('a:nth-of-type(6)').classList.add('italic')
